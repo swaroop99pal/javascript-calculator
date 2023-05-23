@@ -1,0 +1,86 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    background-image: linear-gradient(to top, #c1dfc4 0%, #deecdd 100%);
+}
+
+.button{
+    height: 40px;
+    width: 40px;
+    border: transparent;
+    border-radius: 500px;
+    
+    margin-left: .5px;
+    color: white;
+    background-color: rgb(178, 176, 176);
+    font-size: 1.5rem;
+    
+}
+
+#keypad{
+    background-color: black;
+    height:250px;
+    width: inherit;
+    border-radius: 0px 0px 20px 20px;
+}
+#buttons{
+    height: 250px;
+    width: inherit;
+    padding: 5px;
+}
+.zero,#clear{
+    width: 90px;
+}
+
+#container{
+   margin-left: 45vw;
+   margin-top: 20vh;
+    height: 300px;
+    width: 200px;
+    
+    border-radius: 20px;
+    
+    
+}
+
+#heading>h1{
+
+
+font-size: 12px;
+padding: 10px;
+
+
+}
+.display {
+    
+    
+   width: inherit;
+   height: 45px;
+   overflow: hidden;
+    
+    background-color: rgb(123, 186, 145);
+    
+    
+    
+}
+#heading{
+    background-color: black;
+    color: rgb(255, 255, 255);
+    border-radius: 20px 20px 0px 0px;
+    height: 25px;
+    width: inherit;
+    z-index: 1;
+    padding-bottom: 6px;
+    margin: 0;
+}
+.button:hover{
+    background-color: #ffffff56;
+}
+
+#equal:hover{
+    background-color: rgb(8, 243, 0) !important;
+}
+#equal{
+    background-color: rgb(255, 100, 3) !important ;
+}
